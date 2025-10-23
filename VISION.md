@@ -1,7 +1,6 @@
 # 🧠 Beyond-LLVM Vision  
-### *Prepare the Post-LLVM Era.*
-
-> “We are not escaping LLVM — we are transcending it.”
+**Prepare the Post-LLVM Era.**  
+_“We are not escaping LLVM — we are transcending it.”_
 
 ---
 
@@ -11,65 +10,91 @@ gave structure to code generation,
 and proved that modular design could scale from academia to industry.
 
 But the same foundation that unified the compiler world  
-has also become its **bottleneck** —  
+has also become its bottleneck —  
 a single gravity well pulling every new language into one orbit.
 
 ---
 
 ## ⚙️ 2. The Problem — Over-Centralization  
-- **Ecosystem Dependency**: every compiler either uses LLVM or imitates it.  
-- **Version Volatility**: internal IR changes break reproducibility.  
-- **Opaque Layers**: passes, codegen, and optimization often behave like black boxes.  
-- **Fragile Integration**: embedded, browser, and device runtimes remain out of reach.  
+**Ecosystem Dependency:** every compiler either uses LLVM or imitates it.  
+**Version Volatility:** internal IR changes break reproducibility.  
+**Opaque Layers:** passes, codegen, and optimization behave like black boxes.  
+**Fragile Integration:** embedded, browser, and device runtimes remain out of sync.
 
-When the compiler itself becomes an ecosystem dependency,  
-**innovation slows down** — and experimentation fades.
-
----
-
-## 🪶 3. The Proposal — Go Beyond  
-“Beyond-LLVM” is not a replacement.  
-It’s a **new layer of freedom** — a design philosophy for post-LLVM compilers:
-
-| Principle | Description |
-|------------|--------------|
-| **Autonomy** | Each compiler can self-host and define its own backend. |
-| **Determinism** | The same input always yields the same output — byte for byte. |
-| **Sustainability** | Long-term reproducibility matters more than transient speed. |
-| **Transparency** | No hidden passes, no opaque optimizations. |
-| **Universality** | Web, cloud, and IoT share one unified compilation path. |
+LLVM is brilliant, but heavy.  
+It is open-source, but centralized.  
+It is modular, but monolithic in culture.
 
 ---
 
-## 🔩 4. The Blueprint — Rust 3.0 → 6.0 Lineage  
+## 🚀 3. The Transition — Beyond Dependence  
+We do not reject LLVM.  
+We acknowledge its era — and plan the next.
 
+The **Post-LLVM Transition Path** unfolds in four phases:
 
+| Phase | Focus | Description |
+|-------|--------|-------------|
+| I. Compatibility | Coexistence | LLVM IR interop and minimal extensions |
+| II. Adaptation | Hybrid layers | Alternative IR translation, layered pipelines |
+| III. Autonomy | Independence | Direct ASM emission, LLVM-free optimizers |
+| IV. Evolution | Transcendence | Self-hosting, transparent, multi-target compiler cores |
 
-R3C  →  R4W  →  R5S  →  R6I
-Compiler     Web       Secure      In-Device
-
-
-
-Each stage peels away another layer of LLVM dependency,  
-until compilation itself becomes **a self-contained language act.**
-
----
-
-## 🧭 5. The Future — Post-LLVM Ecology  
-Imagine compilers that can:
-- Compile themselves from source without toolchain inheritance.  
-- Run inside browsers, chips, and clusters alike.  
-- Preserve determinism across 10-year LTS cycles.  
-- Verify their own integrity and signatures at runtime.  
-
-That world is **Beyond-LLVM** —  
-not a war against LLVM, but its natural evolution.
+This is not rebellion — it’s succession.  
+Beyond-LLVM means **inheritance with awareness.**
 
 ---
 
-## 🪶 Closing Thought  
-> LLVM gave us a common ground.  
-> Beyond-LLVM gives us the courage to step off it.
+## 🧩 4. The Framework — Layered Independence  
+1. **R3C** — The core experiment: C++ → Rust → ASM pipeline without LLVM.  
+2. **HalRust** — Hybrid Adaptive Layered Rust bridging LLVM and ASM.  
+3. **LLVM-Zero-Ecosystem** — The philosophical bridge documenting autonomy.  
+4. **Beyond-LLVM** — The meta-project that connects, visualizes, and guides them all.
 
-The post-LLVM era begins when languages learn  
-to **breathe without the gravity of LLVM.**
+Together they form the **Rust Independence Continuum**,  
+a vision of compilers that evolve _organically_ rather than _obediently_.
+
+---
+
+## 🔬 5. The Research Axis  
+- Lightweight IR experiments (`proto_ir`, `bllvm`, `hls-ir`)  
+- Deterministic build graphs  
+- Transparent pass visualization  
+- Cross-target ASM and bytecode emission  
+- Formal spec for IR-to-ASM verification  
+
+These form the **core research direction** of Beyond-LLVM:  
+a compiler stack that can explain itself.
+
+---
+
+## 🧱 6. The Goal — Sustainable Autonomy  
+We imagine a compiler that can:
+
+- Be built from source on any device.  
+- Emit fully reproducible output without LLVM.  
+- Optimize through open, inspectable algorithms.  
+- Stay lightweight enough for education, research, and industry.  
+
+> “When a compiler can be understood by one person again,  
+> software engineering will have regained its sanity.”
+
+---
+
+## 🌌 7. The Future — Post-LLVM Civilization  
+The Post-LLVM world is not a single toolchain,  
+but a **philosophy of compiler sovereignty.**
+
+Languages will no longer depend on one backend.  
+They will **own their transformation pipelines** — visibly, transparently, and ethically.
+
+> Dependence is comfortable.  
+> Independence is hard.  
+> Transcendence is necessary.
+
+---
+
+**Beyond-LLVM** exists to remind developers and researchers that  
+freedom, once gained, must also be _re-engineered._
+
+**→ Prepare the Post-LLVM Era.**
